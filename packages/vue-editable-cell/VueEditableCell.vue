@@ -31,10 +31,32 @@
 <script>
 import Vue from 'vue'
 import Element from 'element-ui'
+
 import 'element-ui/lib/theme-chalk/index.css'
 
 // Element.install(Vue)
 Vue.use(Element, {size: 'small', zIndex: 3000})
+
+/*Vue.use(Input, {size: 'small', zIndex: 3000})
+Vue.use(InputNumber, {size: 'small', zIndex: 3000})
+Vue.use(Radio, {size: 'small', zIndex: 3000})
+Vue.use(RadioGroup, {size: 'small', zIndex: 3000})
+Vue.use(RadioButton, {size: 'small', zIndex: 3000})
+Vue.use(Checkbox, {size: 'small', zIndex: 3000})
+Vue.use(CheckboxButton, {size: 'small', zIndex: 3000})
+Vue.use(CheckboxGroup, {size: 'small', zIndex: 3000})
+Vue.use(Switch, {size: 'small', zIndex: 3000})
+Vue.use(Select, {size: 'small', zIndex: 3000})
+Vue.use(Option, {size: 'small', zIndex: 3000})
+Vue.use(OptionGroup, {size: 'small', zIndex: 3000})
+Vue.use(Button, {size: 'small', zIndex: 3000})
+Vue.use(ButtonGroup, {size: 'small', zIndex: 3000})
+Vue.use(DatePicker, {size: 'small', zIndex: 3000})
+Vue.use(TimeSelect, {size: 'small', zIndex: 3000})
+Vue.use(TimePicker, {size: 'small', zIndex: 3000})
+Vue.use(Tag, {size: 'small', zIndex: 3000})
+Vue.use(Rate, {size: 'small', zIndex: 3000})
+Vue.use(ColorPicker, {size: 'small', zIndex: 3000})*/
 
 export default {
   name: 'VueEditableCell',
